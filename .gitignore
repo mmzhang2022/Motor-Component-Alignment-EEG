@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ==========================
+# MATLAB Ignore Rules
+# ==========================
+# Windows default autosave files
+*.asv
+
+# MATLAB autosave files
+*.m~
+
+# Simulink project-related
+slprj/
+sfprj/
+
+# Mex object files (compiled C/C++)
+*.mex*
+*.oct
